@@ -3,7 +3,7 @@
 Command line utility for creating CSV representations of a Biscuit ngram table. This is to be used in conjunction with the [Biscuit](http://github.com/wilhelm-murdoch/biscuit) package and the importing of precalculated ngram tables.
 
 ### Installation
-You'll have to compile this on your own, so make sure you have the Go compiler installed on your machine. This utility was written with version `1.1.2` and it might work with earlier versions, though I have not tested it yet.
+You'll have to compile this on your own, so make sure you have the Go compiler installed on your machine. This utility was written with version `go1.1.2 darwin/amd64` and it might work with earlier versions, though I have not tested it yet.
 
 1. Clone into your `$GOPATH/src` directory.
 2. Fetch all external dependancies with `go get -v`
