@@ -33,7 +33,9 @@ The following will take the specified source text `en.txt`, compile it into a Bi
 ```
 $: biscuit-export -f en.txt -t en.csv -o
 2573 sequences written to en.csv ...
-
+```
+or, for verbosity ...
+```
 $: biscuit-export --from en.txt --to en.csv --overwrite
 2573 sequences written to en.csv ...
 ```
